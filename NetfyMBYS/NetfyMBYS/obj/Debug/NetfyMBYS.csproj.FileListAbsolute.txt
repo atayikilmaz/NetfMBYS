@@ -1,0 +1,10 @@
+C:\Users\ASUS\Source\Repos\atayikilmaz\NetfMBYS\NetfyMBYS\NetfyMBYS\bin\Debug\NetfyMBYS.exe.config
+C:\Users\ASUS\Source\Repos\atayikilmaz\NetfMBYS\NetfyMBYS\NetfyMBYS\bin\Debug\NetfyMBYS.exe
+C:\Users\ASUS\Source\Repos\atayikilmaz\NetfMBYS\NetfyMBYS\NetfyMBYS\bin\Debug\NetfyMBYS.pdb
+C:\Users\ASUS\Source\Repos\atayikilmaz\NetfMBYS\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.csproj.AssemblyReference.cache
+C:\Users\ASUS\Source\Repos\atayikilmaz\NetfMBYS\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Source\Repos\atayikilmaz\NetfMBYS\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.Properties.Resources.resources
+C:\Users\ASUS\Source\Repos\atayikilmaz\NetfMBYS\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.csproj.GenerateResource.cache
+C:\Users\ASUS\Source\Repos\atayikilmaz\NetfMBYS\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Source\Repos\atayikilmaz\NetfMBYS\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.exe
+C:\Users\ASUS\Source\Repos\atayikilmaz\NetfMBYS\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.pdb
