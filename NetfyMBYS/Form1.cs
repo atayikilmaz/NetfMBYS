@@ -38,7 +38,6 @@ namespace NetfyMBYS
                     if (sifre == sifreText.Text)
                     {
                         // sifre değerleri eşit
-                        MessageBox.Show("Giriş başarılı!");
                         FrmIslemSayfasi frmIslemSayfasi = new FrmIslemSayfasi();
                         frmIslemSayfasi.Show();
                     }

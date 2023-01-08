@@ -135,6 +135,7 @@
             this.muayeneEkleBtn.TabIndex = 26;
             this.muayeneEkleBtn.Text = "Muayene Ekle";
             this.muayeneEkleBtn.UseVisualStyleBackColor = true;
+            this.muayeneEkleBtn.Click += new System.EventHandler(this.muayeneEkleBtn_Click);
             // 
             // ekleveDevamBtn
             // 
@@ -144,6 +145,7 @@
             this.ekleveDevamBtn.TabIndex = 27;
             this.ekleveDevamBtn.Text = "Muayene Ekle ve Reçete Eklemeye Git";
             this.ekleveDevamBtn.UseVisualStyleBackColor = true;
+            this.ekleveDevamBtn.Click += new System.EventHandler(this.ekleveDevamBtn_Click);
             // 
             // label2
             // 

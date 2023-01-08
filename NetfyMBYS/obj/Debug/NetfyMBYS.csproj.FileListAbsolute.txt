@@ -51,3 +51,4 @@ C:\Users\pheal\Desktop\NetfMBYS-main\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.csp
 C:\Users\pheal\Desktop\NetfMBYS-main\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.csproj.CopyComplete
 C:\Users\pheal\Desktop\NetfMBYS-main\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.exe
 C:\Users\pheal\Desktop\NetfMBYS-main\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.pdb
+C:\Users\pheal\Desktop\NetfMBYS-main\NetfyMBYS\NetfyMBYS\obj\Debug\NetfyMBYS.FrmPoliklinikDefteri.resources

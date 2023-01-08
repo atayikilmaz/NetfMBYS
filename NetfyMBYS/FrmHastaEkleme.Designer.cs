@@ -43,9 +43,9 @@
             this.telefonLbl = new System.Windows.Forms.Label();
             this.adresText = new System.Windows.Forms.TextBox();
             this.adresLbl = new System.Windows.Forms.Label();
-            this.medeniDurumText = new System.Windows.Forms.TextBox();
             this.medeniDurumLbl = new System.Windows.Forms.Label();
             this.hastaEkleBtn = new System.Windows.Forms.Button();
+            this.evliCheckBox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -70,7 +70,7 @@
             // 
             this.tcLbl.AutoSize = true;
             this.tcLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.tcLbl.Location = new System.Drawing.Point(157, 138);
+            this.tcLbl.Location = new System.Drawing.Point(121, 138);
             this.tcLbl.Name = "tcLbl";
             this.tcLbl.Size = new System.Drawing.Size(31, 20);
             this.tcLbl.TabIndex = 10;
@@ -87,7 +87,7 @@
             // 
             this.adıLbl.AutoSize = true;
             this.adıLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.adıLbl.Location = new System.Drawing.Point(157, 180);
+            this.adıLbl.Location = new System.Drawing.Point(119, 180);
             this.adıLbl.Name = "adıLbl";
             this.adıLbl.Size = new System.Drawing.Size(33, 20);
             this.adıLbl.TabIndex = 12;
@@ -104,7 +104,7 @@
             // 
             this.soyadıLbl.AutoSize = true;
             this.soyadıLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.soyadıLbl.Location = new System.Drawing.Point(157, 222);
+            this.soyadıLbl.Location = new System.Drawing.Point(119, 222);
             this.soyadıLbl.Name = "soyadıLbl";
             this.soyadıLbl.Size = new System.Drawing.Size(59, 20);
             this.soyadıLbl.TabIndex = 14;
@@ -121,7 +121,7 @@
             // 
             this.dogumYeriLbl.AutoSize = true;
             this.dogumYeriLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.dogumYeriLbl.Location = new System.Drawing.Point(157, 262);
+            this.dogumYeriLbl.Location = new System.Drawing.Point(119, 262);
             this.dogumYeriLbl.Name = "dogumYeriLbl";
             this.dogumYeriLbl.Size = new System.Drawing.Size(97, 20);
             this.dogumYeriLbl.TabIndex = 16;
@@ -138,7 +138,7 @@
             // 
             this.dogumTarihiLbl.AutoSize = true;
             this.dogumTarihiLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.dogumTarihiLbl.Location = new System.Drawing.Point(157, 308);
+            this.dogumTarihiLbl.Location = new System.Drawing.Point(121, 308);
             this.dogumTarihiLbl.Name = "dogumTarihiLbl";
             this.dogumTarihiLbl.Size = new System.Drawing.Size(110, 20);
             this.dogumTarihiLbl.TabIndex = 18;
@@ -155,7 +155,7 @@
             // 
             this.telefonLbl.AutoSize = true;
             this.telefonLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.telefonLbl.Location = new System.Drawing.Point(157, 398);
+            this.telefonLbl.Location = new System.Drawing.Point(121, 398);
             this.telefonLbl.Name = "telefonLbl";
             this.telefonLbl.Size = new System.Drawing.Size(64, 20);
             this.telefonLbl.TabIndex = 20;
@@ -179,18 +179,11 @@
             this.adresLbl.TabIndex = 22;
             this.adresLbl.Text = "Adres";
             // 
-            // medeniDurumText
-            // 
-            this.medeniDurumText.Location = new System.Drawing.Point(281, 347);
-            this.medeniDurumText.Name = "medeniDurumText";
-            this.medeniDurumText.Size = new System.Drawing.Size(100, 22);
-            this.medeniDurumText.TabIndex = 23;
-            // 
             // medeniDurumLbl
             // 
             this.medeniDurumLbl.AutoSize = true;
             this.medeniDurumLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.medeniDurumLbl.Location = new System.Drawing.Point(157, 349);
+            this.medeniDurumLbl.Location = new System.Drawing.Point(121, 349);
             this.medeniDurumLbl.Name = "medeniDurumLbl";
             this.medeniDurumLbl.Size = new System.Drawing.Size(119, 20);
             this.medeniDurumLbl.TabIndex = 24;
@@ -204,6 +197,17 @@
             this.hastaEkleBtn.TabIndex = 25;
             this.hastaEkleBtn.Text = "Hasta Ekle";
             this.hastaEkleBtn.UseVisualStyleBackColor = true;
+            this.hastaEkleBtn.Click += new System.EventHandler(this.hastaEkleBtn_Click);
+            // 
+            // evliCheckBox
+            // 
+            this.evliCheckBox.AutoSize = true;
+            this.evliCheckBox.Location = new System.Drawing.Point(329, 351);
+            this.evliCheckBox.Name = "evliCheckBox";
+            this.evliCheckBox.Size = new System.Drawing.Size(52, 21);
+            this.evliCheckBox.TabIndex = 26;
+            this.evliCheckBox.Text = "Evli";
+            this.evliCheckBox.UseVisualStyleBackColor = true;
             // 
             // FrmHastaEkleme
             // 
@@ -211,8 +215,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(800, 471);
+            this.Controls.Add(this.evliCheckBox);
             this.Controls.Add(this.hastaEkleBtn);
-            this.Controls.Add(this.medeniDurumText);
             this.Controls.Add(this.medeniDurumLbl);
             this.Controls.Add(this.adresText);
             this.Controls.Add(this.adresLbl);
@@ -253,8 +257,8 @@
         private System.Windows.Forms.Label telefonLbl;
         private System.Windows.Forms.TextBox adresText;
         private System.Windows.Forms.Label adresLbl;
-        private System.Windows.Forms.TextBox medeniDurumText;
         private System.Windows.Forms.Label medeniDurumLbl;
         private System.Windows.Forms.Button hastaEkleBtn;
+        private System.Windows.Forms.CheckBox evliCheckBox;
     }
 }
